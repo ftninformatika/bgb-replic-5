@@ -1,0 +1,40 @@
+
+# Build Files
+bin
+target
+build/
+.gradle
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+# Eclipse Project Files
+.classpath
+.project
+.settings
+
+# STS Project Files
+.springBeans
+.apt_generated
+.factorypath
+
+# Output json file
+
+coders_json_output/
+circ_coders_json_output/
+/*.json
+
+# IntelliJ IDEA Files #
+*.iml
+*.ipr
+*.iws
+*.idea
